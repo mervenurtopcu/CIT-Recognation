@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/graph_character_recognation"
+    app:startDestination="@id/fragmentZero">
+
+    <fragment
+        android:id="@+id/fragmentZero"
+        android:name="com.example.citrecognation.FragmentZero"
+        android:label="FragmentZero" >
+        <action
+            android:id="@+id/action_fragmentZero_to_characterRecognation"
+            app:destination="@id/characterRecognation" />
+    </fragment>
+    <fragment
+        android:id="@+id/characterRecognation"
+        android:name="com.example.citrecognation.CharacterRecognation"
+        android:label="CharacterRecognation" >
+        <action
+            android:id="@+id/action_characterRecognation_to_fragmentZero"
+            app:destination="@id/fragmentZero" />
+    </fragment>
+</navigation>

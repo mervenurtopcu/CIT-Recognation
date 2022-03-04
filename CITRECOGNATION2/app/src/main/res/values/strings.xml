@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CIT RECOGNATION</string>
+    <string name="title_activity_buttom_navigation">MainActivity</string>
+    <string name="title_image_to_text_recognation">Text from Image</string>
+    <string name="title_character_recognation">Character Recognation</string>
+    <string name="title_info">Info</string>
+    <string name="text_character_recognation">You can make predictions by drawing characters over the machine learning model running in the background.</string>
+    <string name="text_image_to_text_recognation">You can convert the text in the selected image to text format using the camera or gallery.</string>
+    <string name="text_saved_texts">You can save or edit the converted text from the image.</string>
+    <string name="info_1">CIT Recognation application consists of two parts. In the first part, letters and numbers are predicted by drawing by hand over the machine learning model created using artificial intelligence.
+        In the second part, text determination is made by taking a photo or choosing a photo from the gallery.
+        The text on the selected image is detected and the text on the image is converted to text format.</string>
+    <string name="info_2">Artificial intelligence was used in the first part of the application.
+        For the application, the network was trained and a model was created with Deep Learning and
+        CNN (Convolutional Neural Network) using the Balanced dataset in the EMNIST Dataset.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_names" translatable="false">Character Recognation</string>
+    <string name="clear_button_text" translatable="false">Clear</string>
+    <string name="prediction_text_placeholder" translatable="false">Please draw a letter or digit</string>
+    <string name="classification_error_message" translatable="false">Error classifying drawing: %s</string>
+</resources>
